@@ -2,7 +2,7 @@ version: '3.0'
 
 services:
   grafana:
-    container_name: 'grafana-clock-panel'
+    container_name: 'opmon-state-panel'
     build:
       context: ./.config
       args:
@@ -10,5 +10,5 @@ services:
     ports:
       - 3000:3000/tcp
     volumes:
-      - ./dist:/var/lib/grafana/plugins/grafana-clock-panel
+      - ./dist:/var/lib/grafana/plugins/opmon-state-panel
       - ./provisioning:/etc/grafana/provisioning
