@@ -1,0 +1,28 @@
+{
+  "type": "panel",
+  "name": "OpMon State",
+  "id": "opmon-state-panel",
+  "skipDataQuery": false,
+  "info": {
+    "description": "OpMon State Panel for grafana",
+    "author": {
+      "name": "OpServices SA",
+      "email": "contact@opservices.com",
+      "url": "http://www.opservices.com"
+    },
+    "keywords": [
+      "state",
+      "panel"
+    ],
+    "logos": {
+      "small": "img/logo.png",
+      "large": "img/logo.png"
+    },
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=8.0.0",
+    "plugins": []
+  }
+}
